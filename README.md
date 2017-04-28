@@ -3,7 +3,7 @@
 ## prepare
 
 ```bash
-$ cd guacamole-docker-compose
+$ cd guacamole
 $ cd init 
 $ docker run --rm harbor-bj.devopshub.cn/guacamole/guacamole /opt/guacamole/bin/initdb.sh --postgres > initdb.sql
 $ cd ..
